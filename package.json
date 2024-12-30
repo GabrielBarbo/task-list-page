@@ -7,9 +7,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "eject": "react-scripts eject"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.47.10",
@@ -21,8 +19,7 @@
   },
   "devDependencies": {
     "@types/react": "^17.0.2",
-    "@types/react-dom": "^17.0.2",
-    "gh-pages": "^6.2.0"
+    "@types/react-dom": "^17.0.2"
   },
   "license": "MIT",
   "browserslist": {
@@ -36,6 +33,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://<username>.github.io/<repository-name>"
+  }
 }

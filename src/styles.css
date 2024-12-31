@@ -278,3 +278,62 @@ form {
 .btn-secondary {
   margin-bottom: 20px; /* Adiciona espaçamento abaixo do botão */
 }
+/* Estilos gerais */
+.task-list {
+  padding: 10px;
+  margin: 0;
+  list-style-type: none;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.task-list {
+  padding: 8px;
+  max-width: 100%;
+}
+
+.task-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.task-list button {
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 600px) {
+  .task-list li {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 16px;
+  }
+
+  .task-list button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 4px 0;
+    min-height: 44px; /* minimum touch target size */
+  }
+
+  .task-list span {
+    font-size: 16px;
+    padding: 4px 0;
+  }
+}
